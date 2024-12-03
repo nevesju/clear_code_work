@@ -16,7 +16,7 @@
         A estrutura básica de um documento HTML é composta por elementos que organizam o conteúdo e fornecem informações sobre uma página.
         */
         body {
-            background-color: rgb(175, 45, 201);
+            background-color: rgb(71, 25, 80);
             font-family: Arial, sans-serif;
             background-repeat: no-repeat;
             background-position: top;
@@ -35,13 +35,13 @@
             text-align: center;
             color: whitesmoke;
             padding: 3px;
-            text-shadow: #c5a898 1px 1px 10px;
+            text-shadow: #5d99e2 1px 1px 10px;
             margin-top: 17px;
 
         }
 
         #burger {
-            background-color: #21203f;
+            background-color: #4540d000;
             display: block;
             color: whitesmoke;
             text-align: center;
@@ -52,19 +52,32 @@
         }
 
         #burger:hover {
-            background-color: #c5a898;
+            background-color: #2d7ebc;
         }
 
         menu {
-            color: whitesmoke;
+            color: rgb(247, 247, 248);
             text-align: center;
-            list-style-type: none;
+            /* Centraliza o texto */
             width: 90vw;
             margin: auto;
+            padding: 0;
         }
 
         menu>ul {
+            display: flex;
+            /* Exibe os itens em linha (horizontalmente) */
+            justify-content: center;
+            /* Centraliza os itens horizontalmente */
+            padding: 0;
+            margin: 0;
             list-style-type: none;
+            /* Remove a marcação dos itens de lista */
+        }
+
+        menu>ul>li {
+            margin: 0 10px;
+            /* Espaçamento entre os itens */
         }
 
         menu>ul>li>a {
@@ -72,21 +85,14 @@
             padding: 7px;
             text-decoration: none;
             text-align: center;
-            background-color: #21203f;
+            background-color: #4440ab;
+            color: whitesmoke;
             border-radius: 0px 0px 0px 0px;
-            color: whitesmoke;
-            margin: auto;
-
         }
 
-        menu>ul>li>a:hover {
-            background-color: #c5a898;
-            color: whitesmoke;
-            text-decoration: none;
-        }
-
+    
         main {
-            background-color: #c5a898;
+            background-color: #537fd5;
             width: 90vw;
             margin: auto;
             border-radius: 7px 7px 0px 0px;
@@ -108,7 +114,7 @@
         }
 
         footer {
-            background-color: #c5a898;
+            background-color: #537fd5;
             text-align: center;
             border-radius: 0px 0px 7px 7px;
             width: 90vw;
@@ -144,12 +150,12 @@
                 display: block;
                 width: 90vw;
                 margin: auto;
-                background-color: #21203f;
+                background-color: #332de200;
             }
 
             menu>ul>li {
                 display: inline-block;
-                background-color: #21203f;
+                background-color: #332ed2;
 
             }
 
@@ -191,12 +197,12 @@
 
             menu {
                 display: block;
-                background-color: #21203f;
+                background-color: #332fa7;
             }
 
             menu>ul>li {
                 display: inline-block;
-                background-color: #21203f;
+                background-color: #322fa7;
             }
 
             main {
@@ -224,95 +230,95 @@
             display: none;
         }
     </style>
-<header>
-    <h1>Clean Code Work</h1>
-</header>
+    <header>
+        <h1>Clean Code Work</h1>
+    </header>
 
-<menu id="itens">
-    <ul>
-        <li><a href="index.html">
-                CLEAN_CODE
-            </a></li>
+    <menu id="itens">
+        <ul>
+            <li><a href="index.html">
+                    CLEAN_CODE
+                </a></li>
 
-        <li><a href="mod_js.html">
-                JAVASCRIPT
-            </a></li>
+            <li><a href="mod_js.html">
+                    JAVASCRIPT
+                </a></li>
 
-    </ul>
-</menu>
+        </ul>
+    </menu>
 
-<main>
-    <h2>Pagina Principal</h2>
-    <article>
-        <img src="/assets/javascript.png" alt="clean_code" width="45%" height="45%">
-        
-        <p>
-            Pagina Principal -
+    <main>
+        <h2>Pagina Principal</h2>
+        <article>
+            <img src="/assets/javascript.png" alt="clean_code" width="45%" height="45%">
+
+            <p>
+                Pagina Principal -
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in, dolores animi
+                inventore
+                assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere!
+                Modulação em Javascript -
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in, dolores animi
+                inventore
+                assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in,
+                dolores animi
+                inventore
+                assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in,
+                dolores animi
+                inventore
+                assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
+                ipsam
+                fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
+                facere!
+            </p>
+
+        </article>
+
+        <p> Pagina Principal -
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in, dolores animi
             inventore
             assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia ipsam
             fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
             facere!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia ipsam
             fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere!
-            Modulação em Javascript -
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in, dolores animi
-            inventore
-            assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
-            fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
-            fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
-            fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in,
-            dolores animi
-            inventore
-            assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
-            fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
-            fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in,
-            dolores animi
-            inventore
-            assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
-            fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia
-            ipsam
-            fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-            facere!
-        </p>
+            facere!</p>
 
-    </article>
-
-    <p> Pagina Principal -
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in, dolores animi
-        inventore
-        assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia ipsam
-        fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-        facere!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia ipsam
-        fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
-        facere!</p>
-
-    <!-- <p> Pagina Principal -
+        <!-- <p> Pagina Principal -
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in, dolores animi
         inventore
         assumenda neque iusto eius a esse, nihil nemo totam! Debitis aut amet assumenda dicta quos.
@@ -322,13 +328,13 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, est! Rerum excepturi officia ipsam
         fugit totam, et quo nihil fugiat animi! Natus eveniet amet ratione velit obcaecati mollitia provident
         facere!</p> -->
-</main>
+    </main>
 
-<footer>
-    <p>
-        &COPY; Vitória sena - 2024
-    </p>
-</footer>
-</body>
+    <footer>
+        <p>
+            &COPY; Jullia Neves - 2024
+        </p>
+    </footer>
+    </body>
 
 </html>

@@ -16,14 +16,14 @@
         A estrutura básica de um documento HTML é composta por elementos que organizam o conteúdo e fornecem informações sobre uma página.
         */
         body {
-            background-color: #b96185;
+            background-color: #eb0062;
             font-family: Arial, sans-serif;
             background-repeat: no-repeat;
             background-position: top;
             background-attachment: scroll;
         }
         header {
-            background-color: #964165;
+            background-color: #ce1763;
             margin-top: 3px;
             border-radius: 7px 7px 0px 0px;
             width: 90vw;
@@ -34,7 +34,7 @@
             text-align: center;
             color: #ffffff;
             padding: 3px;
-            text-shadow: #ffb6c8 1px 1px 10px;
+            text-shadow: #9d304b 1px 1px 10px;
             margin-top: 17px;
 
         }
@@ -57,13 +57,26 @@
         menu {
             color: #dc81a4;
             text-align: center;
-            list-style-type: none;
+            /* Centraliza o texto */
             width: 90vw;
             margin: auto;
+            padding: 0;
         }
 
         menu>ul {
+            display: flex;
+            /* Exibe os itens em linha (horizontalmente) */
+            justify-content: center;
+            /* Centraliza os itens horizontalmente */
+            padding: 0;
+            margin: 0;
             list-style-type: none;
+            /* Remove a marcação dos itens de lista */
+        }
+
+        menu>ul>li {
+            margin: 0 10px;
+            /* Espaçamento entre os itens */
         }
 
         menu>ul>li>a {
@@ -72,20 +85,12 @@
             text-decoration: none;
             text-align: center;
             background-color: #964165;
+            color: whitesmoke;
             border-radius: 0px 0px 0px 0px;
-            color: whitesmoke;
-            margin: auto;
-
-        }
-
-        menu>ul>li>a:hover {
-            background-color: #6e2c45;
-            color: whitesmoke;
-            text-decoration: none;
         }
 
         main {
-            background-color: #b87787;
+            background-color: #7f8bc6;
             width: 90vw;
             margin: auto;
             border-radius: 7px 7px 0px 0px;
@@ -107,7 +112,7 @@
         }
 
         footer {
-            background-color: #9e5770;
+            background-color: #7f8bc6;
             text-align: center;
             border-radius: 0px 0px 7px 7px;
             width: 90vw;
@@ -143,7 +148,7 @@
                 display: block;
                 width: 90vw;
                 margin: auto;
-                background-color: #21203f;
+                background-color: #3f3d79;
             }
 
             menu>ul>li {
@@ -257,7 +262,7 @@
     <main>
         <h2>Pagina Principal</h2>
         <article>
-            <img src="/assets/code.png" alt="clean_code" width="45%" height="45%">
+            <img src="/assets/imagem clean code.png" alt="clean_code" width="45%" height="45%">
             <p>
                 Pagina Principal -
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur nesciunt in, dolores animi
@@ -338,12 +343,11 @@
 
     <footer>
         <p>
-            &COPY; Vitória Sena - 2024
+            &COPY; Jullia Neves - 2024
         </p>
     </footer>
 </body>
 
 </html>
 
-    
     
